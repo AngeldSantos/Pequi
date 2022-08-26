@@ -1,52 +1,80 @@
-.menu ul li{
-    position: fixed;
-    right: 0;
-    top: 50%;
-    width: 8em;
-    margin-top: -2.5em;
-  }
 
 
-
-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+li{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
     color: white;
+    
+}
+
+body{
+    background: #EDEDED;
+}
+.menu{
+    
+  display: flex;
+  justify-content: space-between;
+  direction: rtl;
+  top: 20%;
+  background-color: #301445;
+  color: white;
+  top: 10%;
+  margin-top: -2.5em;
+
+}
+
+h1{
+    font-size: 48px;
+    color:#E97051;
+    padding: 0px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.checkbox{
+    text-align: center;
+
+
+ }
+
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+input{
+    width: 400px;
+}
+
+
+/* .menu {
+    flex-direction: row-reverse;
+    position: fixed;
+    right: 10;
     background: #301445;
-    height: 40px;
-    }
+    color: white;
+    top: 20%;
+    margin-top: -2.5em;
+    
+  } */
+
 footer {
     width: 100%;
-    position: fixed;
     bottom: 0;
     right: 0;
     background: #301445;
     color: white;
-    height: 40px;
-    display: flex;
-} 
-/* header {
-	width: 100%;
-	height: 40%;
-	min-height: 250px;
-	background-image:image()
-	background-size: cover;
-    background-position: center;
-	display: flex;
-	flex-direction: column;
-	position: relative;
-    }
-    header section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: calc(100% - 50px);
-    }
-    header div li {
-        text-align: center;
-        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        color: #fff;
-        text-shadow: 0 0 5px rgba(0,0,0,0.5); */
-    } */
+    height: 60px;
+    margin: ;
+}
+
+.rodape{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif
+}
